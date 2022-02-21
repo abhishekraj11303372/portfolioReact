@@ -14,7 +14,8 @@ export default function Home() {
             
         <div className="left_container">
            <div className='logo'><h1><FontAwesomeIcon icon="fa-brands fa-accusoft" /></h1></div>
-            <div className='intro'> Hi, I am
+            <div className='intro'> 
+                <span>Hi, I am</span>
             <h1>Abhishek Raj</h1>
                 <div className='designation'>Senior Engineer - Product Development</div>
                 <div className='links'>

@@ -115,3 +115,103 @@
     color: black;
     box-shadow: 0 8px 8px -4px lightblue;
 }
+
+@media screen and (max-width: 600px) {
+    
+    
+
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: smaller;
+        width: 100vw;
+        margin: 0;
+    }
+
+    .right_container {
+        display: flex;
+        flex:1;
+        height:50vh;
+        gap: 5px;
+    }
+
+    .left_container {
+        order:2
+    }
+
+    .left_container .logo {
+        margin-top: 50px;
+        margin-left: 5%;
+        box-shadow: 0 8px 8px -4px lightblue;
+        width: 90px;
+    }
+
+    .left_container .intro {
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 0%;
+        font-size: 25px;
+        color: black;
+    }
+
+    .left_container h1 , span{
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 5%;
+        font-size: 25px;
+        color: black;
+    }
+
+    .left_container .intro .designation {
+        margin: 0;
+        color: gray;
+        font-weight: bold;
+        font-size: 1rem;
+        padding-bottom: 15%;
+        margin-left: 5%;
+    }
+
+    .left_container .intro .links a {
+        color: black;
+        box-shadow: 0 8px 8px -4px black;
+        padding: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left_container .slant {
+        background-color: white;
+       height: 0;
+    }
+
+      .right_container .nav_a {
+      height:40px;
+      width: 180px;
+      background-color: black;
+      border: none;
+      font-weight: bold;
+      font-size: 15px;
+      color: white;
+      box-shadow: 0 8px 8px -4px black;
+  }
+
+  .right_container .nav_a:hover {
+    height:40px;
+    width: 180px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    color: black;
+    box-shadow: 0 8px 8px -4px lightblue;
+}
+
+    .right_container img {
+        height: auto;
+        width: auto;
+        margin-top: auto;
+    }
+  }
