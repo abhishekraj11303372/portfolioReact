@@ -34,7 +34,7 @@ export default function Home() {
                 <button className='nav_a'>About me</button>
                 <button className='nav_a'>Skills</button>
                 <button className='nav_a'>Portfolio</button>
-                <button className='nav_b'>CONTACT ME</button>
+                <button className='nav_a'>Contact Me</button>
             </div>
             <img className='my_image' src={photo} alt='My Photo'/>
             

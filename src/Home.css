@@ -18,6 +18,8 @@
 .left_container .logo {
     margin-top: 50px;
     margin-left: 15%;
+    box-shadow: 0 8px 8px -4px lightblue;
+    width: 90px;
 }
 
 .left_container .intro {
@@ -46,10 +48,13 @@
 
 .left_container .intro .links a {
     color: black;
+    box-shadow: 0 8px 8px -4px darkblue;
+    padding: 15px;
 }
 
 .left_container .intro .links a:hover {
-    color: rgb(55, 53, 231);
+    color: lightblue;
+    box-shadow: 0 8px 8px -4px lightblue; 
 }
 
 .right_container {
@@ -95,15 +100,17 @@
       font-weight: bold;
       font-size: 15px;
       color: white;
+      box-shadow: 0 8px 8px -4px darkblue;
   }
 
-  
-  .right_container .nav_b {
+  .right_container .nav_a:hover {
     height:40px;
-    width: 200px;
-    margin-left: 50px;
+    width: 180px;
     border-radius: 25px;
     font-size: 15px;
     font-weight: bold;
     border: none;
+    background-color: white;
+    color: black;
+    box-shadow: 0 8px 8px -4px lightblue;
 }
