@@ -3,9 +3,9 @@ import './Home.css'
 import photo from './photo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, fabrands ,faaccusoft } from "@fortawesome/free-brands-svg-icons"
-import { faCheckSquare, faCoffee , faEnvelope, faMailBulk, faSquare, faSquareEnvelope} from '@fortawesome/free-solid-svg-icons'
-library.add(fab, faCheckSquare, faCoffee,faMailBulk, faEnvelope)
+import { fab, faFacebook } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+library.add(fab, faFacebook,faEnvelope)
 
 export default function Home() {
   return (
@@ -18,9 +18,10 @@ export default function Home() {
             <h1>Abhishek Raj</h1>
                 <div className='designation'>Senior Engineer - Product Development</div>
                 <div className='links'>
-                <FontAwesomeIcon icon="fa-solid fa-envelope" />
-                <FontAwesomeIcon icon="fa-brands fa-github" />
-                <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+                <a href="mailto:abhishekraj1130@gmail.com"><FontAwesomeIcon icon="fa-solid fa-envelope" /></a>
+                <a href="https://github.com/abhishekraj11303372" target="_blank"><FontAwesomeIcon icon="fa-brands fa-github" /></a>
+                <a href="https://www.linkedin.com/in/abhishek-raj-08784350/" target="_blank"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a>
+                <a href="https://www.facebook.com/abhishekinvisible" target="_blank"><FontAwesomeIcon icon="fa-brands fa-facebook-square" /></a>
                 </div>
             </div>
             <div className='slant'>

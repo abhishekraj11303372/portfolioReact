@@ -13,7 +13,6 @@
         gap: 50px;
         overflow: hidden;
         background-color: azure;
-        z-index: -1;
 }
 
 .left_container .logo {
@@ -45,6 +44,14 @@
     column-gap: 25px;
 }
 
+.left_container .intro .links a {
+    color: black;
+}
+
+.left_container .intro .links a:hover {
+    color: rgb(55, 53, 231);
+}
+
 .right_container {
     flex: 1;
     background-color: black;
@@ -66,7 +73,6 @@
     transform: skewX(349deg);
     transform-origin: top left;
     margin-left: 50%;
-    z-index: 1;
 }
 
   .right_container .navbar {
@@ -101,4 +107,3 @@
     font-weight: bold;
     border: none;
 }
-  
