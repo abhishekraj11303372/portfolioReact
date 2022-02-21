@@ -1,32 +1,99 @@
 .container {
     display: flex;
     width: 100%;
+    overflow: hidden;
 }
 
 .left_container {
         flex: 1;
-        color: #282c34;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         font-size: calc(10px + 2vmin);
-        background-color: white;
+        gap: 50px;
+        overflow: hidden;
+}
+
+.left_container .logo {
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+.left_container .intro {
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15%;
+    font-size: 50px;
+    color: black;
+}
+
+.left_container .intro .designation {
+    color: gray;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.left_container .intro .links{
+    width: 50%;
+    
 }
 
 .right_container {
     flex: 1;
-    background-color: #282c34;
+    background-color: black;
+    position: relative;
+    align-items: center;
+    color: white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+    overflow: hidden;
+  }
+
+  .left_container .slant {
+    background-color: black;
+    width: 20%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(349deg);
+    transform-origin: top left;
+    margin-left: 50%;
+    z-index: -1;
+}
+
+  .right_container .navbar {
+    margin-top: 50px;
   }
 
   .right_container img {
+      bottom: 0;
+      height: 80vh;
+      width: 50vw;
+      margin-top: auto;
+      margin-right: 25%;
   }
+
+  .right_container .nav_a {
+      height:40px;
+      width: 180px;
+      background-color: black;
+      border: none;
+      font-weight: bold;
+      font-size: 15px;
+      color: white;
+  }
+
+  
+  .right_container .nav_b {
+    height:40px;
+    width: 200px;
+    margin-left: 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
   
