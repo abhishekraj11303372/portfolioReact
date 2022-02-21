@@ -24,7 +24,7 @@ export default function Home() {
                 </div>
             </div>
             <div className='slant'>
-                hi
+                
             </div>
         </div>
         <div className='right_container'> 

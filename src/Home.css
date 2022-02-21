@@ -12,6 +12,8 @@
         font-size: calc(10px + 2vmin);
         gap: 50px;
         overflow: hidden;
+        background-color: azure;
+        z-index: -1;
 }
 
 .left_container .logo {
@@ -35,8 +37,12 @@
 }
 
 .left_container .intro .links{
-    width: 50%;
-    
+    margin-top: 25px;
+    display: flex;
+    color: black;
+    background-color: darkgrey;
+    padding: 15px;
+    column-gap: 25px;
 }
 
 .right_container {
@@ -44,7 +50,6 @@
     background-color: black;
     position: relative;
     align-items: center;
-    color: white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -61,7 +66,7 @@
     transform: skewX(349deg);
     transform-origin: top left;
     margin-left: 50%;
-    z-index: -1;
+    z-index: 1;
 }
 
   .right_container .navbar {
