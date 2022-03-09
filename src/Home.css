@@ -47,13 +47,34 @@
     column-gap: 25px;
 }
 
+.left_container .intro .links select{
+    border: none;
+    font-weight: bold;
+    display: flex;
+    color: black;
+    background-color: darkgrey;
+    padding: 15px;
+    column-gap: 25px;
+}
+
 .left_container .intro .links a {
     color: black;
     box-shadow: 0 8px 8px -4px darkblue;
     padding: 15px;
 }
 
+.left_container .intro .links select {
+    color: black;
+    box-shadow: 0 8px 8px -4px darkblue;
+    padding: 15px;
+}
+
 .left_container .intro .links a:hover {
+    color: lightblue;
+    box-shadow: 0 8px 8px -4px lightblue; 
+}
+
+.left_container .intro .links select:hover {
     color: lightblue;
     box-shadow: 0 8px 8px -4px lightblue; 
 }
