@@ -13,7 +13,7 @@ const translationsEn = {
     welcome: "Hi , I am",
     "sample-text": " <bold>Abhishek Raj</bold>",
     changed: "Senior Engnieer - Product Development",
-    AboutButton: "About Me",
+    aboutButton: "About Me",
     skillsButton:"Skills",
     portfolioButton:"Portfolio",
     contactButton:"Contact Me",
@@ -66,10 +66,11 @@ export default function Home() {
                 <span>
                 {t("welcome")}
                 </span>
-                <br/>
-                <Trans components={{ bold: <strong />, italic: <i /> }}>
+                <div className='name'>
+                  <Trans components={{ bold: <strong />, italic: <i /> }}>
               sample-text
             </Trans>
+            </div>
                 
                 <div className='designation'><p>{t("changed")}</p></div>
                 <div className='links'>

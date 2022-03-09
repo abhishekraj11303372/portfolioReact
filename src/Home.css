@@ -176,7 +176,7 @@
         color: black;
     }
 
-    .left_container h1 , span{
+    .left_container .intro .name , span{
         align-items: center;
         margin-top: auto;
         margin-bottom: auto;
@@ -195,18 +195,18 @@
     }
 
     .left_container .intro .links{
-        margin-top: 25px;
+        margin-top: 10px;
         display: flex;
         color: black;
         background-color: darkgrey;
-        padding: 15px;
+        padding: 10px;
         column-gap: 25px;
     }
     
     .left_container .intro .links a {
         color: black;
-        box-shadow: 0 8px 8px -4px darkblue;
-        padding: 15px;
+        box-shadow: 0 4px 4px -2px darkblue;
+        padding: 5px;
     }
     
     .left_container .intro .links a:hover {
