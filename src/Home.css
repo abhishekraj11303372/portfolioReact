@@ -1,0 +1,395 @@
+.container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.left_container {
+        flex: 1;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-size: calc(10px + 2vmin);
+        gap: 50px;
+        overflow: hidden;
+        background-color: azure;
+}
+
+.left_container .logo {
+    margin-top: 50px;
+    margin-left: 15%;
+    box-shadow: 0 8px 8px -4px lightblue;
+    width: 90px;
+}
+
+.left_container .intro {
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15%;
+    font-size: 50px;
+    color: black;
+}
+
+.left_container .intro .designation {
+    color: gray;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 15%;
+}
+
+.left_container .intro .links{
+    margin-top: 25px;
+    display: flex;
+    color: black;
+    background-color: darkgrey;
+    padding: 15px;
+    column-gap: 25px;
+}
+
+.left_container .intro .links select{
+    border: none;
+    font-weight: bold;
+    display: flex;
+    color: black;
+    background-color: darkgrey;
+    padding: 15px;
+    column-gap: 25px;
+}
+
+.left_container .intro .links a {
+    color: black;
+    box-shadow: 0 8px 8px -4px darkblue;
+    padding: 15px;
+}
+
+.left_container .intro .links select {
+    color: black;
+    box-shadow: 0 8px 8px -4px darkblue;
+    padding: 15px;
+}
+
+.left_container .intro .links a:hover {
+    color: lightblue;
+    box-shadow: 0 8px 8px -4px lightblue; 
+}
+
+.left_container .intro .links select:hover {
+    color: lightblue;
+    box-shadow: 0 8px 8px -4px lightblue; 
+}
+
+.right_container {
+    flex: 1;
+    background-color: black;
+    position: relative;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .left_container .slant {
+    background-color: black;
+    width: 20%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(349deg);
+    transform-origin: top left;
+    margin-left: 50%;
+}
+
+  .right_container .navbar {
+    margin-top: 50px;
+  }
+
+  .right_container img {
+      bottom: 0;
+      height: 80vh;
+      width: 50vw;
+      margin-top: auto;
+      margin-right: 25%;
+  }
+
+  .right_container .nav_a {
+      height:40px;
+      width: 180px;
+      background-color: black;
+      border: none;
+      font-weight: bold;
+      font-size: 15px;
+      color: white;
+      box-shadow: 0 8px 8px -4px darkblue;
+  }
+
+  .right_container .nav_a:hover {
+    height:40px;
+    width: 180px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    color: black;
+    box-shadow: 0 8px 8px -4px lightblue;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .container {
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .left_container {
+            flex: 1;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-size: 10px;
+            gap: 5px;
+            overflow: hidden;
+            background-color: azure;
+    }
+    
+    .left_container .logo {
+        margin-top: 50px;
+        margin-left: 15%;
+        box-shadow: 0 3px 6px -3px lightblue;
+        width: 90px;
+    }
+    
+    .left_container .intro {
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 15%;
+        font-size: 25px;
+        color: black;
+    }
+    
+    .left_container .intro .designation {
+        color: gray;
+        font-weight: bold;
+        font-size: 1rem;
+        padding-bottom: 15%;
+    }
+    
+    .left_container .intro .links{
+        margin-top: 25px;
+        display: flex;
+        color: black;
+        background-color: darkgrey;
+        padding: 10px;
+        column-gap: 25px;
+    }
+    
+    .left_container .intro .links select{
+        border: none;
+        font-weight: bold;
+        display: flex;
+        color: black;
+        background-color: darkgrey;
+        padding: 15px;
+        column-gap: 25px;
+    }
+    
+    .left_container .intro .links a {
+        color: black;
+        box-shadow: 0 8px 8px -4px darkblue;
+        padding: 15px;
+    }
+    
+    .left_container .intro .links select {
+        color: black;
+        box-shadow: 0 8px 8px -4px darkblue;
+        padding: 15px;
+    }
+    
+    .left_container .intro .links a:hover {
+        color: lightblue;
+        box-shadow: 0 8px 8px -4px lightblue; 
+    }
+    
+    .left_container .intro .links select:hover {
+        color: lightblue;
+        box-shadow: 0 8px 8px -4px lightblue; 
+    }
+    
+    .right_container {
+        flex: 1;
+        background-color: black;
+        position: relative;
+        align-items: center;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+    
+      .left_container .slant {
+        background-color: black;
+        width: 20%;
+        height: 101.4vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: skewX(349deg);
+        transform-origin: top left;
+        margin-left: 50%;
+    }
+    
+      .right_container .navbar {
+        margin-top: 50px;
+      }
+    
+      .right_container img {
+          bottom: 0;
+          height: 80vh;
+          width: 50vw;
+          margin-top: auto;
+          margin-right: 25%;
+      }
+    
+      .right_container .nav_a {
+          height:40px;
+          width: 180px;
+          background-color: black;
+          border: none;
+          font-weight: bold;
+          font-size: 15px;
+          color: white;
+          box-shadow: 0 8px 8px -4px darkblue;
+      }
+    
+      .right_container .nav_a:hover {
+        height:40px;
+        width: 180px;
+        border-radius: 25px;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        background-color: white;
+        color: black;
+        box-shadow: 0 8px 8px -4px lightblue;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    
+
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: smaller;
+        width: 100vw;
+        margin: 0;
+    }
+
+    .right_container {
+        display: flex;
+        flex:1;
+        height:50vh;
+        gap: 5px;
+    }
+
+    .left_container {
+        order:2
+    }
+
+    .left_container .logo {
+        margin-top: 50px;
+        margin-left: 5%;
+        box-shadow: 0 8px 8px -4px lightblue;
+        width: 40px;
+    }
+
+    .left_container .intro {
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 0%;
+        font-size: 25px;
+        color: black;
+    }
+
+    .left_container .intro .name , span{
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 5%;
+        font-size: 25px;
+        color: black;
+    }
+
+    .left_container .intro .designation {
+        margin: 0;
+        color: gray;
+        font-weight: bold;
+        font-size: 1rem;
+        padding-bottom: 15%;
+        margin-left: 5%;
+    }
+
+    .left_container .intro .links{
+        margin-top: 10px;
+        display: flex;
+        color: black;
+        background-color: darkgrey;
+        padding: 10px;
+        column-gap: 25px;
+    }
+    
+    .left_container .intro .links a {
+        color: black;
+        box-shadow: 0 4px 4px -2px darkblue;
+        padding: 10px;
+    }
+    
+    .left_container .intro .links a:hover {
+        color: lightblue;
+        box-shadow: 0 8px 8px -4px lightblue; 
+    }
+    
+
+    .left_container .slant {
+        background-color: white;
+       height: 0;
+    }
+
+      .right_container .nav_a {
+      height:40px;
+      width: 180px;
+      background-color: black;
+      border: none;
+      font-weight: bold;
+      font-size: 15px;
+      color: white;
+      box-shadow: 0 8px 8px -4px black;
+  }
+
+  .right_container .nav_a:hover {
+    height:40px;
+    width: 180px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    color: black;
+    box-shadow: 0 8px 8px -4px lightblue;
+}
+
+    .right_container img {
+        /* height: auto; */
+        width: 1000px;
+        margin-top: auto;
+    }
+  }
