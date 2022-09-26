@@ -388,8 +388,8 @@
 }
 
     .right_container img {
-        height: auto;
-        width: auto;
+        /* height: auto; */
+        width: 1000px;
         margin-top: auto;
     }
   }
