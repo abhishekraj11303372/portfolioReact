@@ -106,13 +106,20 @@
     margin-top: 50px;
   }
 
-  .right_container img {
+  /* .right_container img {
       bottom: 0;
       height: 80vh;
       width: 50vw;
-      margin-top: auto;
       margin-right: 25%;
-  }
+  } */
+
+  .right_container img {
+    bottom: 0;
+    height: 80vh;
+    width: 40vw;
+    margin-top: auto;
+    margin-right: 25%;
+}
 
   .right_container .nav_a {
       height:40px;
