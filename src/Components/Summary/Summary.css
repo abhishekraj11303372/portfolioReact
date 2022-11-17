@@ -1,0 +1,15 @@
+.desc {
+    padding: 30px 50px;
+    height: 120px;
+    background-color: rgb(29,29,29);
+    color: white;
+}
+
+.desc > .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.desc > .experience {
+    padding-top: 10px;
+}

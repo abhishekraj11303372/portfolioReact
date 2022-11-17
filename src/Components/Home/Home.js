@@ -2,7 +2,7 @@ import React,{ Suspense, useState } from 'react';
 import i18n from "i18next";
 import { useTranslation, initReactI18next, Trans } from "react-i18next";
 import './Home.css'
-import photo from './photo2.png'
+import photo from '../../photo2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faFacebook } from "@fortawesome/free-brands-svg-icons"
