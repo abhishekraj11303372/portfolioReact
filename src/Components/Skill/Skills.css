@@ -1,5 +1,32 @@
 .skill-section {
-    height: 80vh;
     text-align: center;
     margin-top: 50px;
+}
+
+.tag {
+    padding-bottom: 5rem;
+}
+
+.using {
+    padding: 1rem;
+}
+
+.skill  {
+    display: flex;
+    flex: 1;
+    column-gap: 10rem;
+}
+
+.skill-icon{
+    padding-bottom: 0.5rem; 
+    height: 1rem;
+    width: 1rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.skill-label{
+    padding: 5rem 0; 
+    font-size: 1rem;
+    text-align: center;
 }

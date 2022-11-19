@@ -16,7 +16,8 @@ knowledge to contribute to the overall growth of the organization and build my p
 • Experience in building Application using Agile Methodology.
 • Experience in maintenance involving enhancements, analysis, carrying out the change, Testing and 
 Deploying.
-• Requirement analysis, Problem Solving and Trouble Shooting. </div>
+• Requirement analysis, Problem Solving and Trouble Shooting. </div><br/>
+| Read More |
     </div>
   )
 }
