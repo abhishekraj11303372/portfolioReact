@@ -2,3 +2,21 @@
   margin: 0;
     padding: 0;
 }
+
+.section {
+  margin: 5rem 10rem;
+  background-color: rgb(240,255,255);
+  /* display:-webkit-box;
+  -webkit-box-pack: center;
+  text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+}
+
+.heading {
+  border: 5px solid black;
+  padding: 15px 22px;
+  width: fit-content;
+}

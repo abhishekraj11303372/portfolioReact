@@ -1,5 +1,9 @@
-.skill-section {
+.aboutme-section {
     height: 80vh;
     text-align: center;
     margin-top: 50px;
+}
+
+.description {
+    width: 10rem;
 }
