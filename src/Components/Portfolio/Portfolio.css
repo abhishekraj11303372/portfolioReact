@@ -4,6 +4,7 @@
     height: 15vh;
     align-items: center;
     text-align: center;
+    display: flex;
 }
 
 img {

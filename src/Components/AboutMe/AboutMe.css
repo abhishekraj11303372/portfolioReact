@@ -1,10 +1,23 @@
 .aboutme-section {
-    height: 80vh;
+    /* height: 80vh; */
     text-align: center;
     margin-top: 50px;
+}
+
+.design {
+    /* border: solid red 1px; */
+    padding: 1rem;
+    padding-bottom: 2rem;
 }
 
 .description {
     /* width: 10rem; */
     
 }
+
+p {
+    display:block;
+    width:33vw;
+    word-wrap:break-word;
+}
+

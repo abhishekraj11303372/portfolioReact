@@ -2,7 +2,7 @@ import React,{ Suspense, useState } from 'react';
 import i18n from "i18next";
 import { useTranslation, initReactI18next, Trans } from "react-i18next";
 import './Home.css'
-import photo from '../../Assets/images/photo2.png'
+import photo from '../../Assets/images/photo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faFacebook } from "@fortawesome/free-brands-svg-icons"
@@ -91,10 +91,10 @@ export default function Home() {
         <div className='right_container'> 
         
             <div className='navbar' >
-                <button className='nav_a'>{t("aboutButton")}</button>
-                <button className='nav_a'>{t("skillsButton")}</button>
-                <button className='nav_a'>{t("portfolioButton")}</button>
-                <button className='nav_a'>{t("contactButton")}</button>
+                <a href='#AboutMe'><button className='nav_a' >{t("aboutButton")}</button></a>
+                <a href='#Skills'><button className='nav_a'>{t("skillsButton")}</button></a>
+                <a href='#Portfolio'><button className='nav_a'>{t("portfolioButton")}</button></a>
+                <a href='#ContactMe'><button className='nav_a'>{t("contactButton")}</button></a>
             </div>
             <img className='my_image' src={photo} alt='My Photo'/>
             

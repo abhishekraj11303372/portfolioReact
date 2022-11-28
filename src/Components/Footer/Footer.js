@@ -8,7 +8,7 @@ library.add(faEnvelope,faAngleDoubleUp)
 function Footer() {
   return (
     <div className='footer'>
-        <div><FontAwesomeIcon icon="fas fa-angle-double-up" /><p>BACK TO TOP</p></div>
+        <div><a href="#top"><FontAwesomeIcon icon="fas fa-angle-double-up" /><p>BACK TO TOP</p></a></div>
         <div className='icons'>
           <FontAwesomeIcon className='icon' icon="fa-brands fa-facebook" />
           <FontAwesomeIcon className='icon' icon="fa-brands fa-instagram" />
