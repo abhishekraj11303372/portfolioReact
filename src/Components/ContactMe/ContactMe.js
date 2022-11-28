@@ -19,7 +19,7 @@ const submitButton = () =>{
 }
 
   return (
-    <div className='section'>
+    <div className='section' id='ContactMe'>
     <div className='aboutme-section'>
         <h2 className='heading'>CONTACT ME</h2><br/>
         <div>

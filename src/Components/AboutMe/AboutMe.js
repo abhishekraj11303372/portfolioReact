@@ -3,7 +3,7 @@ import './AboutMe.css'
 
 function AboutMe() {
   return (
-    <div className='section'>
+    <div className='section' id='AboutMe'>
         <div className='aboutme-section'>
             <h2 className='heading'>ABOUT ME</h2><br/>
             <p className='description'>I am always curious to learn more. Skilled in .NET Framework, C#, HTML,CSS, Core Java, Angular, Clojure, Microsoft Powerapps and Powerautomate(SharePoint). 

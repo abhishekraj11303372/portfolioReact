@@ -4,8 +4,8 @@
 }
 
 .section {
-  margin: 5rem 10rem;
   background-color: rgb(240,255,255);
+  /* border: solid red 1px; */
   /* display:-webkit-box;
   -webkit-box-pack: center;
   text-align: center; */
@@ -18,8 +18,13 @@
 .heading {
   border: 5px solid black;
   padding: 15px 22px;
+  width:fit-content; width:-webkit-fit-content; width:-moz-fit-content;
+  /* margin-right: auto;
+  margin-left: auto; */
+  margin: auto;
 }
 
-.design {
-  width: 15rem;
+a {
+ text-decoration: none;
+ color: white;
 }
