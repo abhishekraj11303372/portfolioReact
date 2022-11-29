@@ -34,3 +34,42 @@
     font-size: 1rem;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    .skill-section {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .tag {
+        padding-bottom: 2rem;
+    }
+    
+    .using {
+        padding: 1rem;
+    }
+    
+    .skill  {
+        display: flex;
+        flex: 1;
+        column-gap: 5rem;
+    }
+    
+    .skill-block{
+        
+    }
+    
+    .skill-icon{
+        padding-bottom: 0.5rem; 
+        height: 1rem;
+        width: 1rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .skill-label{
+        padding: 2rem 0; 
+        font-size: 1rem;
+        text-align: center;
+    }
+}
