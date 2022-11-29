@@ -251,12 +251,12 @@
     }
     
       .right_container .navbar {
-        margin-top: 50px;
+        margin-top: 40px;
       }
     
       .right_container img {
           bottom: 0;
-          height: 80vh;
+          height: 70vh;
           width: 50vw;
           margin-top: auto;
           margin-right: 25%;
@@ -275,7 +275,7 @@
     
       .right_container .nav_a:hover {
         height:40px;
-        width: 180px;
+        width: 170px;
         border-radius: 25px;
         font-size: 15px;
         font-weight: bold;
