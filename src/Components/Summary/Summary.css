@@ -18,7 +18,27 @@
 
     .desc {
         padding: 25px 35px;
-        height: 18vh;
+        height: 25vh;
+        background-color: rgb(29,29,29);
+        color: white;
+    }
+    
+    .desc > .title {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .desc > .experience {
+        padding-top: 5px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    .desc {
+        padding: 25px 35px;
+        height: 25vh;
         background-color: rgb(29,29,29);
         color: white;
     }
