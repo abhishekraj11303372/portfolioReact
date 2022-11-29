@@ -312,7 +312,7 @@
     }
 
     .left_container .logo {
-        margin-top: 30px;
+        margin-top: 25px;
         margin-left: 5%;
         box-shadow: 0 8px 8px -4px lightblue;
         width: 40px;
@@ -323,7 +323,7 @@
         margin-top: auto;
         margin-bottom: auto;
         margin-left: 0%;
-        font-size: 25px;
+        font-size: 20px;
         color: black;
     }
 
@@ -340,13 +340,13 @@
         margin: 0;
         color: gray;
         font-weight: bold;
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding-bottom: 15%;
         margin-left: 5%;
     }
 
     .left_container .intro .links{
-        margin-top: 10px;
+        margin-top: 8px;
         display: flex;
         color: black;
         background-color: darkgrey;
