@@ -29,7 +29,7 @@ const translationsEn = {
     skillsButton:"スキル",
     portfolioButton:"ポートフォリオ",
     contactButton:"私に連絡して",
-    optionEn:"英語",
+    optionEn:"English",
     optionJp:"日本語",
   };
 
