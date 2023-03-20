@@ -81,7 +81,7 @@
 
 .right_container {
     flex: 1;
-    background-color: black;
+    /* background-color: black; */
     position: relative;
     align-items: center;
     min-height: 100vh;
@@ -90,7 +90,7 @@
     overflow: hidden;
   }
 
-  .left_container .slant {
+  /* .left_container .slant {
     background-color: black;
     width: 20%;
     height: 100vh;
@@ -100,7 +100,7 @@
     transform: skewX(349deg);
     transform-origin: top left;
     margin-left: 50%;
-}
+} */
 
   .right_container .navbar {
     margin-top: 50px;
@@ -126,6 +126,8 @@
       width: 180px;
       background-color: black;
       border: none;
+      border-radius: 25px;
+      margin-right: 10px;
       font-weight: bold;
       font-size: 15px;
       color: white;
@@ -229,7 +231,7 @@
     
     .right_container {
         flex: 1;
-        background-color: black;
+        /* background-color: black; */
         position: relative;
         align-items: center;
         min-height: 100vh;
@@ -238,7 +240,7 @@
         overflow: hidden;
       }
     
-      .left_container .slant {
+      /* .left_container .slant {
         background-color: black;
         width: 15%;
         height: 100vh;
@@ -248,7 +250,7 @@
         transform: skewX(349deg);
         transform-origin: top left;
         margin-left: 50%;
-    }
+    } */
     
       .right_container .navbar {
         margin-top: 40px;
@@ -367,10 +369,10 @@
     }
     
 
-    .left_container .slant {
+    /* .left_container .slant {
         background-color: white;
        height: 0;
-    }
+    } */
 
       .right_container .nav_a {
       /* height:30px; */
