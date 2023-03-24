@@ -1,12 +1,15 @@
 import React,{ Suspense, useState } from 'react';
 import i18n from "i18next";
 import { useTranslation, initReactI18next, Trans } from "react-i18next";
+import { Canvas } from '@react-three/fiber'; 
+import { OrbitControls } from "@react-three/drei";
 import './Home.css'
 import photo from '../../Assets/images/photo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faFacebook } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { AmbientLight } from 'three';
 library.add(fab, faFacebook,faEnvelope)
 
 const translationsEn = {
@@ -29,7 +32,7 @@ const translationsEn = {
     skillsButton:"スキル",
     portfolioButton:"ポートフォリオ",
     contactButton:"私に連絡して",
-    optionEn:"英語",
+    optionEn:"English",
     optionJp:"日本語",
   };
 
@@ -44,6 +47,15 @@ const translationsEn = {
     fallbackLng: "en",
     interpolation: { escapeValue: false },
   });
+
+ function Box() {
+    return(
+      <mesh>
+        <boxGeometry attach="geometry" />
+        <meshLambertMaterial attach="material" color="hotpink" />
+      </mesh>
+    )
+  }
 
 
 export default function Home() {
@@ -96,8 +108,13 @@ export default function Home() {
                 <a href='#Portfolio'><button className='nav_a'>{t("portfolioButton")}</button></a>
                 <a href='#ContactMe'><button className='nav_a'>{t("contactButton")}</button></a>
             </div>
-            <img className='my_image' src={photo} alt='My Photo'/>
-            
+            {/* <img className='my_image' src={photo} alt='My Photo'/> */}
+            <Canvas>
+              <OrbitControls />
+              
+              <spotLight position={[10,15,10]} angle={0.3} />
+              <Box />
+            </Canvas>
         </div>
   </div>
 </Suspense>
